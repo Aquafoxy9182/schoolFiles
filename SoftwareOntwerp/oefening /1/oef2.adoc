@@ -1,0 +1,141 @@
+= notities les 1
+leon lauwers
+
+== inhoudstafel
+
+:toc:
+:toc-title: Inhoud
+
+== notities
+*softwareontwikkelingsproces*
+
+    softwareontwikkelingsproces = alles samen komen hoe je een softwear project start 
+
+    gebruikers verijsen = wat de klant zou willen jij kan ook u eigen klant zijn 
+
+    inittiele gebruikers vereist = input
+    while isGood = false
+    software ontwikkelings proces
+            1. analyse + testen
+            2. analyse delivariables
+            3. ontwerpen + testen 
+            4. ontwerpen delivariables
+            5. implementatie + testen
+            6. mplementatie delivariables
+        
+    
+    software system = output 
+
+*methode*
+
+    waterval methode = alles 1 keer doorlopen van de processen (je begint niet meer opnieuw)
+
+    iteratiev methode = de vershilende fase herhaalen tot goed we vragen bij elke stap feedback of het well goed is (veel minder shade)
+
+    agile = is een ireatieve methode handig voor de werk werold (scrum leeren we om dit toe te passen)
+
+*scrum:*
+
+    scrum methode = iterativ
+
+    de rollen
+        ontwikkelaars = maakt het product
+        product owner = hij manged de backlog = (de taken voor de dingen in de achtergrond en zet de prioreiten)
+        scrum master = hij is de poltie van de scrum hij/zij zort dat de regels door iedereen word gevolged
+    
+    de team
+        bestaat max 10 persoonen 
+        er is exact 1 scrum master en 1 product owner
+        1 persoon mag meerde rollen op hem nemen
+        elke experise is in het team aanwezig
+        self manging het team kiest zelf hoe ze werken 
+    
+    de events
+        sprint
+            al het werk ga je inplanenn in het begin van twee weken tot 1 maand
+            doelen bepaalen elk sprint kan gezien worden als een min-project
+        
+        sprint planing
+            bij start van de sprint 
+            besreek doelen en maak baglog
+        
+        daily scrum
+            daglijks 15 min bespreeken wat iedereen aan het doen is en wat er mis loopt
+        
+        sprint review
+            een demo en resulaten bijken 
+        
+        retrospectiv
+            self evaluatie / team evaluatie 
+            laatste bijeenkomst
+        
+    
+    scrum artifects
+        product backlog = een lijst met alle eisen met prioteiten
+
+        sprint backlog = de dinge die je gaat gebreuken voor deze sprint
+
+        incrementen = de meerwaarde voor de developers
+    
+
+    andere termen
+        acceptatiecreria = heel duidelijke uitleg wat er moet zijn
+
+        scrumboard = een bord da aantooned waar mensen mee bezig zijn en wat er nog moet aan begonnen worden
+
+        DoD = formele beschrijvin als iets voledig done is en waneer je het mag als done zetten
+    
+*extra*
+
+    bing bang methode = tijdens ontwikeling onderdelen apart ontwiklen en op het einde bij elkaar toevoegen
+
+    iterative = je werkt in iteraties en verbetert op elke iteratie tot het goed gekeurt is
+
+*diagramen*
+
+    diagramen {
+        uml-diagrame{
+            1. use case diagram = tootne de ineractie tussen gebruikes/actor(het ding    dat het programma gebruikt) en het systeem
+            2. activiteit diagram = toont een stroom van activietijten start en einpunt van hoe een functie werkt 
+            3. klassen diagram = toont de structuur van de code toont welke klassen er gebruikt gaat worden
+            4. objectdiagram
+            5.sequentiediagram = toont de ineractie tussen objecten in chronlighse tijd
+
+            what is uml{
+                Unified Modeling Language
+                    de afspraak van de zelfde taal te       gebreuken onder elke diagram zo dat iedereen elkaars diagram zou kunnen maken
+        }
+    }
+
+    erd diagram{
+        erd = entity relationship diagram/ gebruikt ander notatie dan uml
+    }
+}
+
+*asciidoc*
+
+    asciidoc = is een voorbeeld van een markup languages (een taal voor voor tekseten   structuur te geven)
+
+belangrijk!!
+kwaliteits factoren{
+    externe kwaliteitsfactoren = de gebruiken gaat kunnen zien dat het slegt is
+    interne kwaliteitsfactoren  = is voor jezelf
+
+    1. corectheid = de software doet wat het moet doen 
+            verficatie = voeldoet het aan de eisen
+            validatie = is dit wat de kalnt eigelijl wou
+    2. robuustheid = hoe goed is u programa tegen fouten
+    3. uitbreidbaarheid = tot hoe maten kan u programa uitbreiden hoe makelijk is het om aan te passen en opnieuw te gebruiken
+    4. herbruikbaarheid = hoe goed kan je deelen van u code herbruiken
+    5. compabliteit = hoe goed werkt het samen met externe dingen
+    6. efficientie = hoe spaarzaam ga je om mer rescourses
+    7. porteerbaardheid = maak het zo dat het meerde platformen kan draaien
+    8. gebruiksgemak = hoe gemaklijk is het om het programa te gebruiken voor de user
+    9. functionalteid = hoeveel functie heeft u programa
+    10. punctualteid = hoe vlug kan je een programa uit brengen 
+    11. securty = hoe goed beveilgt is je programa
+            utenticatie = identiteit van de gebruiker nagaan login
+            authorisatie = welke regten hebben de login users
+    12. verfieerbaarheid = hoe goed kan ik mijn programa testen
+    13. economshe factoren = blijf ik binnen het budget
+}

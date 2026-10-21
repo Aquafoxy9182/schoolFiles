@@ -1,0 +1,65 @@
+oef1)
+a) string PotloodKleur = "rood";
+b) int aantalLeerlingen = 23;
+c) double vensterBreedte = 2.46;
+d) string titelFilm = "Bob";
+e) bool isVerzekerd = True;
+
+oef2)
+Console.WriteLine("geef een naam op: ");
+string Naam = Console.ReadLine();
+
+Console.WriteLine(Naam);
+Console.WriteLine(Naam);
+
+oef3)
+Console.WriteLine("geef een getal: ");
+double getal = double.parse(Console.ReadLine());
+
+double dubelGetal = getal * 2;
+
+Console.WriteLine(dubleGetal);
+
+oef4)
+Console.WriteLine("Aantal snoepjes: ");
+int aantalSnoepjes = int.parse(Console.ReadLine());
+
+Console.WriteLine("Prijs");
+double prijs = double.parse(Console.ReadLine());
+
+double prijsPerSnoepje = aantalSnoepjes / prijs;
+
+Console.WriteLine($"Elk snoepje kost {prijsPerSnoepje} euro");
+
+oef5)?
+double behaaldeScore = 130;
+double totaalScore = 200;
+
+double procent = (behaaldeScore / totaaleScore) * 100;
+
+Console.Write("Uw percentage is ");
+Console.Write(procent);
+
+oef6)
+double prijs = 17;
+int kortingKids;
+Console.WriteLine("Wat is de leeftijd ");
+int leeftijd = int.parse(Console.ReadLine());
+
+if(leeftijd > 12){
+    Console.WriteLine($"toegang kost {prijs}");
+}
+else if(leeftijd > 65){
+    prijs = prijs - ((prijs / 100) * 10);
+    Console.WriteLine($"toegan kost {prijs}")
+}
+else{
+    prijs -= kortingKids;
+    Console.WriteLine($"toegan kost {prijs}")
+}
+
+    
+
+
+
+
